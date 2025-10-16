@@ -1,0 +1,16 @@
+[build]
+  command = "npm install"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/qrcode"
+  to = "/.netlify/functions/qrcode"
+  status = 200
+
+[[redirects]]
+  from = "/qrcode"
+  to = "/.netlify/functions/qrcode"
+  status = 200
