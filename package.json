@@ -1,0 +1,16 @@
+{
+  "name": "netlify-qrcode-generator",
+  "version": "1.0.0",
+  "description": "QR Code Generator with Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step'"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
